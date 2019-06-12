@@ -31,11 +31,11 @@ describe('handler tests', () => {
       "resource": "/{proxy+}",
       "requestContext": {
         "resourceId": "123456",
-        "apiId": "BFG0",
+        "apiId": "1234567890",
         "resourcePath": "/{proxy+}",
         "httpMethod": "POST",
         "requestId": "c6af9ac6-7b61-11e6-9a41-93e8deadbeef",
-        "accountId": "BFG012",
+        "accountId": "123456789012",
         "identity": {
           "apiKey": null,
           "userArn": null,
@@ -65,7 +65,7 @@ describe('handler tests', () => {
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
         "Upgrade-Insecure-Requests": "1",
         "X-Forwarded-Port": "443",
-        "Host": "BFG0.execute-api.us-east-1.amazonaws.com",
+        "Host": "1234567890.execute-api.us-east-1.amazonaws.com",
         "X-Forwarded-Proto": "https",
         "X-Amz-Cf-Id": "cDehVQoZnx43VYQb9j2-nvCh-9z396Uhbp027Y2JvkCPNLmGJHqlaA==",
         "CloudFront-Is-Tablet-Viewer": "false",

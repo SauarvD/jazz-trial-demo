@@ -42,7 +42,7 @@
   "ENVIRONMENT_DELETE_STARTED_STATUS": "deletion_started",
   "ENVIRONMENT_DELETE_FAILED_STATUS": "deletion_failed",
   "ENVIRONMENT_DELETE_COMPLETED_STATUS": "archived",
-  "RANDOM_CHARACTERS": "0BFGabcdefghijklmnopqrstuvwxyz",
+  "RANDOM_CHARACTERS": "0123456789abcdefghijklmnopqrstuvwxyz",
   "RANDOM_ID_CHARACTER_COUNT": 10,
   "JENKINS_USER": "{ci_user}",
   "JOB_TOKEN": "{job_token}",

@@ -4,7 +4,7 @@ API to invoke functions (aws lambda). Takes in ARN of the function & input as JS
 #### sample request to the API
 ```
 {
-  "functionARN": "arn:aws:lambda:us-east-1:BFG:function:hello-function",
+  "functionARN": "arn:aws:lambda:us-east-1:123456789:function:hello-function",
   "inputJSON": {
     "foo": "bar"
   }
@@ -24,7 +24,7 @@ API to invoke functions (aws lambda). Takes in ARN of the function & input as JS
     "execStatus": "Success"
   },
   "input": {
-    "functionARN": "arn:aws:lambda:us-east-1:BFG:function:hello-function",
+    "functionARN": "arn:aws:lambda:us-east-1:123456789:function:hello-function",
     "inputJSON": {
       "foo": "bar"
     }

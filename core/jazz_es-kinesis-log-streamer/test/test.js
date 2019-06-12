@@ -323,7 +323,7 @@ describe('jazz_es-kinesis-log-stream', function () {
       it('should successfully transform the API Gateway logs', () => {
         let payload = {
           "messageType": "DATA_MESSAGE",
-          "owner": "BFG012",
+          "owner": "123456789012",
           "logGroup": "API-Gateway-Execution-Logs_abc123def45/dev",
           "logStream": "2a38a4a9316c49e5a833517c45d31070",
           "subscriptionFilters": [
